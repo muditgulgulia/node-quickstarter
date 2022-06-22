@@ -1,0 +1,44 @@
+{
+    "dev": {
+        "driver": "mysql",
+        "user": "root",
+        "password": "SunArc@123",
+        "database": "todo",
+        "multipleStatements": true
+    },
+
+    "test": {
+        "driver": "mysql",
+        "user": "root",
+        "password": "SunArc@123",
+        "database": "todo",
+        "multipleStatements": true
+    },
+
+    "prod": {
+        "driver": "mysql",
+        "user": "root",
+        "password": "SunArc@123",
+        "database": "todo",
+        "multipleStatements": true
+    },
+
+    "pg": {
+        "driver": "pg",
+        "user": "test",
+        "password": "test",
+        "host": "localhost",
+        "database": "mydb",
+        "port": "20144",
+        "ssl": "true",
+        "schema": "my_schema"
+    },
+
+    "mongo": {
+        "driver": "mongodb",
+        "database": "my_db",
+        "host": "localhost"
+    },
+
+    "other": "postgres://uname:pw@server.com/dbname"
+}

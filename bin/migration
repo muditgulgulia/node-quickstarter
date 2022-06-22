@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+
+/**
+ * Module dependencies.
+ */
+'/home/sunarcmudit/Desktop/SunArc/Node/skeleton/migrations';
+const models = require('../db');
+for (const name in models) {
+    if (Object.hasOwnProperty.call(models, name)) {
+        const model = models[name];
+        model.sync()
+    }
+}
