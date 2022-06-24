@@ -1,5 +1,5 @@
 {
-  "name": "express-sequelize",
+  "name": "quickstarter-node",
   "version": "1.0.0",
   "description": "Sketelon structure for Node, Express, MySQL and Sequelize",
   "main": "index.js",
@@ -17,7 +17,7 @@
     "migrate": "node node_modules/db-migrate/bin/db-migrate up",
     "make:migration": "node node_modules/db-migrate/bin/db-migrate create"
   },
-  "author": "Sanket Subhash Hande",
+  "author": "Mudit Gulgulia",
   "license": "GPL-3.0",
   "dependencies": {
     "apidoc": "^0.17.7",
