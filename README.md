@@ -1,4 +1,4 @@
-# Node Quickstart
+# Node Quickstarter
 Quickstart skeleton application using Node (Express) and MySQL or PostgreSQL (Sequelize) for your next Javascript backend project.
 
 Below key features are already configured:
